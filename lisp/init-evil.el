@@ -298,6 +298,7 @@ If the character before and after CH is space or tab, CH is NOT slash"
         (fundamental-mode . emacs)
         (weibo-timeline-mode . emacs)
         (weibo-post-mode . emacs)
+        (woman-mode . emacs)
         (sr-mode . emacs)
         (profiler-report-mode . emacs)
         (dired-mode . emacs)
@@ -489,15 +490,6 @@ If the character before and after CH is space or tab, CH is NOT slash"
        "ulb" 'uniquify-all-lines-buffer
        "lj" 'moz-load-js-file-and-send-it
        "mr" 'moz-console-clear
-       "rnr" 'rinari-web-server-restart
-       "rnc" 'rinari-find-controller
-       "rnv" 'rinari-find-view
-       "rna" 'rinari-find-application
-       "rnk" 'rinari-rake
-       "rnm" 'rinari-find-model
-       "rnl" 'rinari-find-log
-       "rno" 'rinari-console
-       "rnt" 'rinari-find-test
        "fs" 'ffip-save-ivy-last
        "fr" 'ffip-ivy-resume
        "fc" 'cp-ffip-ivy-last
